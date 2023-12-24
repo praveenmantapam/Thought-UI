@@ -1,0 +1,22 @@
+{
+  "name": "ngx-wiztree",
+  "version": "1.0.0",
+  "author": {
+    "name": "Praveen M",
+    "email": "praveen.mantapam@live.com"
+  },
+  "categories": ["Visualization","Themes"],
+  "displayName": "Thought UI",
+  "license":"MIT",
+  "readme": "README.md",
+  "preview": true,
+  "markdown": "github",
+  "peerDependencies": {
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
