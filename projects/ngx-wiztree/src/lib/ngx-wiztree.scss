@@ -1,0 +1,44 @@
+
+#wiztree{
+  position: relative;
+    width: 100%;
+    min-width: 800px !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    z-index: 10;
+
+    svg{
+      z-index: 1;
+    }
+
+
+.step-root {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  .wizard-step{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: start;
+    //flex:1 0 auto;
+  }
+
+  .active-step{
+    position: relative;
+    margin:25px 50px;
+    z-index: 999;
+  }
+}
+
+.step-text{
+  padding: 15px 20px;
+  border-radius: 50%;
+  border-width: 1px;
+  background-color: red;
+}
+
+}

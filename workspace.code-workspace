@@ -4,5 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+  "settings": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnType": true,
+    "html.format.enable": true,
+    "editor.tabSize": 6,
+    "editor.detectIndentation": false
+  }
 }
